@@ -54,9 +54,9 @@ class _ImgPageState extends State<ImgPage> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text(
-            '$text',
-            style: TextStyle(
+          Text(
+            text,
+            style: const TextStyle(
               color: Colors.white,
               fontFamily: 'PoetsenOne',
               fontSize: 40,
@@ -101,6 +101,5 @@ class _ImgPageState extends State<ImgPage> {
         ],
       ),
     );
-    ;
   }
 }
